@@ -19,20 +19,9 @@
 - models.py  # model code
 - ui_mainwindow.py  # GUI layout code
 
-### 2 使用说明
+### 3 Guide
 
-##### 2.1 对联生成
+run the `main.py`
+> The system will read the database and calculate the label image encoding when it starts up, you need to wait a few seconds.
 
-python 环境运行 run-gen.py 即可运行生成demo
-
-##### 2.2 对联评分
-
-python 环境运行 run-score.py 即可运行评分demo
-
-##### 2.3 对联系统服务器
-
-> 由于客户端为 Qt 动态编译实现，需根据错误提示配置动态链接库环境
-
-python 环境运行 run-server.py 即可启动本地服务器，启动成功后打印 “server start”
-
-运行 Qt GUI 可执行文件即可连接服务器使用系统
+upload the character image to be recognized.
