@@ -22,6 +22,6 @@
 ### 3 Guide
 
 run the `main.py`
-> The system will read the database and calculate the label image encoding when it starts up, you need to wait a few seconds.
+> The system will read the database and encoding the label image when it starts up, you need to wait a few seconds.
 
 upload the character image to be recognized.
